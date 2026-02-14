@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CFXP\Core\Encryption;
+namespace Denosys\Encryption;
 
 use RuntimeException;
-use CFXP\Core\Container\ContainerInterface;
-use CFXP\Core\ServiceProviderInterface;
-use CFXP\Core\Config\ConfigurationInterface;
+use Denosys\Container\ContainerInterface;
+use Denosys\Contracts\ServiceProviderInterface;
+use Denosys\Config\ConfigurationInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
 class EncryptionServiceProvider implements ServiceProviderInterface
