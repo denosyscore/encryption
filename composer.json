@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Denosys\\\\Encryption\\\\": "src/Encryption/"
+      "Denosys\\Encryption\\": "src/Encryption/"
     }
   },
   "config": {
